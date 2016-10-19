@@ -1,0 +1,13 @@
+body {
+	background-color: tomato;
+}
+table
+{
+	border:1px;
+}
+.par{
+	background-color: orange;
+}
+.impar {
+	background-color: green;
+}
