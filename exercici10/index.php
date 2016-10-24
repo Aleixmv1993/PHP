@@ -1,23 +1,19 @@
 <!DOCTYPE>
 <head>
-<title>Exercici9</title>
+<title>Exercici 10</title>
 </head>
 
 <body>
-
-<table>
-
 <?php
-    $directory="fotos";
+    $directory="img";
     $dirint = dir($directory);
     while (($archivo = $dirint->read()) !== false)
     {
         if (eregi("gif", $archivo) || eregi("jpg", $archivo) || eregi("png", $archivo)){
-            echo '<td><tr><img src="'.$directory."/".$archivo.'">'."\n"."</tr><td>";
+            echo '<img src="'.$directory."/".$archivo.'">'."\n";
         }
     }
     $dirint->close();
 ?>
-</table>
 </body>
 </html>

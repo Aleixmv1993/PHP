@@ -14,7 +14,7 @@
 			}
 		}
 	}
-	$num=55;
+	$num=14;
 	buscar_num($array_aleatori, $num);// s'ha de cridar sempre a la funció. Sino al no ser cridada funcione.
 
  ?>
